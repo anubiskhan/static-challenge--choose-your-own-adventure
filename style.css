@@ -1,0 +1,58 @@
+.hero_image {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5e9147a7-705a-4c0b-a12c-c7d9d80288dd/60def959-04fe-44e4-998b-7e58cdec6188/US-en-20180402-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+  justify-content: center;
+}
+
+.h1 {
+
+  font-size: 100px;
+}
+
+.h3 {
+  font-size: 50px;
+}
+
+top {
+  width: 1680px;
+  height: 100px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.netflix_logo {
+  font-size: 40px;
+  color: red;
+  display: inline-block;
+}
+
+.button_signin {
+
+  background-color: red;
+  color: white;
+  padding: 7px 17px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.button_join {
+  background-color: red;
+  color: white;
+  padding: 17px 37px;
+  border-radius: 3px;
+  display: inline-block;
+}
